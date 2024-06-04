@@ -1,0 +1,185 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1d1fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: #f9f9fb;
+    flex-direction: column;
+    width: 1080px;
+    height: 550px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.menu{
+    display: flex;
+    width: 1080px;
+    height: 40px;
+    border-bottom: 1px solid #bbbbbe;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user, .email{
+    margin-left: 15px;
+}
+.menu-icons{
+    margin-left: 150px;
+}
+
+.logo-image{
+    margin-right: 5px;
+}
+
+h2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h4{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    max-width: 90%;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.book-image {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.book-details {
+    flex-grow: 1;
+}
+.book-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.book-details .author {
+    margin: 5px 0;
+    color: #777;
+}
+
+.book-details .type {
+    display: flex;
+    width: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ea9ed;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    color: #1d59b9;
+}
+
+.book-actions {
+    display: flex;
+    align-items: center;
+}
+
+.book-actions .quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.book-actions .quantity button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.book-actions .quantity .count {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.book-actions .price {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-actions .favorite, .book-actions .delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.book-actions .favorite img, .book-actions .delete img {
+    width: 20px;
+    height: auto;
+}
+
+.direction{
+    display: flex;
+    flex-direction: row;
+}
+
+.basket{
+    background-color: #ffffff;
+    width: 350px;
+    height: 305px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.cart-summary, .total {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.empty-cart, .checkout {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.empty-cart{
+    margin: 0px 140px;
+}
+
+.checkout {
+    background-color: #1a51dc;
+}
+
+.empty-cart:hover, .checkout:hover {
+    opacity: 0.8;
+}

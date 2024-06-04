@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolbudenko Lab5 V5 Task1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img class="logo-image" height = "25px" width = "25px" src="IMG/free-icon-letter-b-9000002.png" alt="logo">
+                <p>Bookva</p>
+            </div>
+            <div class="menu-icons">
+                <img class = "search" width="16px" height="16px" src="IMG/free-icon-search-magnifier-symbol-of-interface-51658.png" alt="search">
+                <img class = "user" width="17px" height="17px" src="IMG/free-icon-user-profile-2696783.png" alt="profile">
+                <img class = "email" width="20px" height="20px" src="IMG/free-icon-new-email-4185746.png" alt="email">
+            </div>
+        </div>
+        <h2>Cart</h2>
+            <h4>2 items</h4>
+        <div class = "direction">
+            <div>
+                <div class="book-item">
+                    <img src="IMG/My Natural Recipes and Remedies Journal.jpg" alt="Cook This Book" class="book-image">
+                    <div class="book-details">
+                        <h3>Cook This Book</h3>
+                        <p class="author">Molly Baz</p>
+                        <p class="type">Paperback</p>
+                    </div>
+                    <div class="book-actions">
+                        <div class="quantity">
+                            <button class="decrease">-</button>
+                            <span class="count">0
+                            </span>
+                            <button class="increase">+</button>
+                        </div>
+                        <p class="price">$22.69</p>
+                        <button class="favorite"><img src="IMG/free-icon-add-to-favorites-4989206.png" alt="Favorite"></button>
+                        <button class="delete"><img src="IMG/free-icon-delete-1214428.png" alt="Delete"></button>
+                    </div>
+                </div>
+                <div class="book-item">
+                    <img src="IMG/Sleepy Hollow Farm, Vermont.jpg" alt="Cook This Book" class="book-image">
+                    <div class="book-details">
+                        <h3>The Beatiful Fall</h3>
+                        <p class="author">Hugh Breakey</p>
+                        <p class="type">Ebook</p>
+                    </div>
+                    <div class="book-actions">
+                        <div class="quantity">
+                            <button class="decrease">-</button>
+                            <span class="count">0</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <p class="price">$22.69</p>
+                        <button class="favorite"><img src="IMG/free-icon-add-to-favorites-4989206.png" alt="Favorite"></button>
+                        <button class="delete"><img src="IMG/free-icon-delete-1214428.png" alt="Delete"></button>
+                    </div>
+                </div>
+            </div>
+            <div class = "basket">
+                <p class="cart-summary">0 items</p>
+                <button class="empty-cart">Empty cart</button>
+                <div class="cart-items"></div>
+                <div class="total">
+                    <p>Total: $<span class="total-amount">0.00</span></p>
+                    <button class="checkout">Checkout</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src = "JS/task1.js"></script>
+</html>
